@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="287.0" prefWidth="502.0" style="-fx-background-color: #7FFFD4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="validandonumeros.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="175.0" layoutY="149.0" onAction="#validar" text="VALIDAR">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="21.0" layoutY="89.0" minHeight="16" minWidth="69" text="DIGITE UM NUMERO:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <TextField fx:id="cxnumero" layoutX="223.0" layoutY="83.0" prefHeight="25.0" prefWidth="174.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label fx:id="label1" layoutX="95.0" layoutY="28.0" minHeight="16" minWidth="69" text="VALIDANDO NUMERO">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cxresult" layoutX="41.0" layoutY="212.0" prefHeight="48.0" prefWidth="447.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>
